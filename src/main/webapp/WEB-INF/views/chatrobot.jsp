@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>淘一淘-小淘</title>
+    <title>好物-小物</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/main.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/chatrobot.css">
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -23,7 +23,7 @@
         <div class="chat">
             <div class="chat-name">
                 <div class="chat-name-detail">
-                    <h3 id="receive"><i>小淘</i></h3>
+                    <h3 id="receive"><i>小物</i></h3>
                 </div>
             </div>
             <div class="chat-content">
