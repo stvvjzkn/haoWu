@@ -56,7 +56,7 @@
 		<div class="login">
 			<div class="row">
 				<div class="col-md-6">
-					<img src="./image/login.png" alt="" width="640" height="400" style="margin-left:-40px;margin-top:30px;">
+					<img src="${pageContext.request.contextPath}/image/login1.png" alt="" width="500" height="311" style="margin-left:-0px;margin-top:50px;">
 				</div>
 				<div class="col-md-5 form-login">
 					<div>

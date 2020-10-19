@@ -29,7 +29,7 @@
     <div class="login">
         <div class="row">
             <div class="col-md-6">
-                <img src="${pageContext.request.contextPath}/image/register.png" width="450" height="600" alt="" style="margin-left: 40px;">
+                <img src="${pageContext.request.contextPath}/image/register.png" width="500" height="344" alt="" style="margin-left: 10px;">
             </div>
             <div class="col-md-5 form-register">
                 <div>
@@ -39,15 +39,13 @@
                         <div class="form-group">
                             <!-- <label for="inputName" class="col-sm-2 control-label">昵称</label> -->
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="username"
-                                       name="username" placeholder="昵称">
+                                <input type="text" class="form-control" id="username" name="username" placeholder="昵称">
                             </div>
                         </div>
                         <div class="form-group">
                             <!-- <label for="inputPassword" class="col-sm-2 control-label">密码</label> -->
                             <div class="col-sm-10">
-                                <input type="password" class="form-control" id="password"
-                                       name="password" placeholder="密码">
+                                <input type="password" class="form-control" id="password" name="password" placeholder="密码">
                             </div>
                         </div>
                         <div class="form-group">
@@ -60,15 +58,13 @@
                         <div class="form-group">
                             <!-- <label for="inputTel" class="col-sm-2 control-label">联系方式</label> -->
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="email"
-                                       name="email" placeholder="邮箱">
+                                <input type="text" class="form-control" id="email" name="email" placeholder="邮箱">
                             </div>
                         </div>
                         <div class="form-group">
                             <!-- <label for="inputTel" class="col-sm-2 control-label">联系方式</label> -->
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="telephone"
-                                       name="telephone" placeholder="联系方式">
+                                <input type="text" class="form-control" id="telephone" name="telephone" placeholder="联系方式">
                             </div>
                         </div>
 

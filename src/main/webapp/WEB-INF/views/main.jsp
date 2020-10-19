@@ -548,14 +548,14 @@
             <div id="mycarousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="${pageContext.request.contextPath}/image/4.jpg" alt="">
+                        <img src="${pageContext.request.contextPath}/image/5.jpg" alt="">
                     </div>
 
                     <div class="item">
-                        <img src="${pageContext.request.contextPath}/image/3.jpg" alt="">
+                        <img src="${pageContext.request.contextPath}/image/4.jpg" alt="">
                     </div>
                     <div class="item">
-                        <img src="${pageContext.request.contextPath}/image/5.jpg" alt="">
+                        <img src="${pageContext.request.contextPath}/image/10.jpg" alt="">
                     </div>
                     <div class="item">
                         <img src="${pageContext.request.contextPath}/image/6.jpg" alt="">
@@ -784,41 +784,41 @@
                 </div>
             </div>
         </c:if>
-        <c:if test="${!empty sportGoods}">
+        <c:if test="${!empty houseGoods}">
             <div class="module">
                 <div class="hd">
-                    <h2>体育用品</h2>
+                    <h2>家用</h2>
                     <hr>
                 </div>
 
                 <div class="bd">
                     <div class="data">
                         <ul>
-                            <c:forEach items="${sportGoods}" var="sportgoods">
+                            <c:forEach items="${houseGoods}" var="houseGoods">
                                 <li class="data-item-li">
                                     <div class="to-big">
-                                        <a href="${pageContext.request.contextPath}/detail?goodsid=${sportgoods.goodsid}"> <img
-                                                src="${pageContext.request.contextPath}/shopimage/${sportgoods.imagePaths[0].path}" alt=""
+                                        <a href="${pageContext.request.contextPath}/detail?goodsid=${houseGoods.goodsid}"> <img
+                                                src="${pageContext.request.contextPath}/shopimage/${houseGoods.imagePaths[0].path}" alt=""
                                                 width="200" height="200">
                                         </a>
                                     </div>
                                     <p class="text-right">
-                                        <a href="${pageContext.request.contextPath}/detail?goodsid=${sportgoods.goodsid}">${sportgoods.goodsname}</a>
+                                        <a href="${pageContext.request.contextPath}/detail?goodsid=${houseGoods.goodsid}">${houseGoods.goodsname}</a>
                                     </p>
                                     <div class="text-right">
-                                        <b>￥${sportgoods.price}</b>
+                                        <b>￥${houseGoods.price}</b>
                                     </div>
                                     <div>
-                                        <c:if test="${sportgoods.fav}">
+                                        <c:if test="${houseGoods.fav}">
                                             <button
                                                     class="like-button glyphicon glyphicon-heart btn btn-default"
-                                                    data-id="${sportgoods.goodsid}"
+                                                    data-id="${houseGoods.goodsid}"
                                                     style="display: none;"></button>
                                         </c:if>
-                                        <c:if test="${!sportgoods.fav}">
+                                        <c:if test="${!houseGoods.fav}">
                                             <button
                                                     class="like-button glyphicon glyphicon-heart-empty btn btn-default"
-                                                    data-id="${sportgoods.goodsid}"
+                                                    data-id="${houseGoods.goodsid}"
                                                     style="display: none;"></button>
                                         </c:if>
                                         <!-- <button class="like-button1 glyphicon glyphicon-heart-empty btn btn-default "></button> -->
