@@ -135,7 +135,29 @@
             <artifactId>jackson-databind</artifactId>
             <version>2.8.9</version>
         </dependency>
+<!--redis依赖配置-->
+        <dependency>
 
+            <groupId>redis.clients</groupId>
+
+            <artifactId>jedis</artifactId>
+
+            <version>2.9.0</version>
+
+        </dependency>
+
+        <!--active mq start-->
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-core</artifactId>
+            <version>5.7.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-pool</artifactId>
+            <version>5.13.3</version>
+        </dependency>
+        <!--active mq end-->
 
     </dependencies>
     <build>
